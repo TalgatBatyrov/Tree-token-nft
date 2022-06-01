@@ -37,6 +37,11 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
+              <a href='#token' className='page-scroll'>
+                Token
+              </a>
+            </li>
+            <li>
               <a href='#about' className='page-scroll'>
                 Дорожная карта
               </a>

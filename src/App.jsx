@@ -9,7 +9,8 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
-import logo from './img/token-logo.jpg'
+import Token from "./components/Token";
+import ByeAndSellButtons from "./components/byeAndSellButtons";
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -25,7 +26,12 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
+      <div className="buttonsWrapp">
+        <ByeAndSellButtons title={'Купить'} />
+        <ByeAndSellButtons title={'Продать'} />
+      </div>
       <Features data={landingPageData.Features} />
+      <Token />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Team data={landingPageData.Team} contacts={landingPageData.Contact} />

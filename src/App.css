@@ -4,6 +4,41 @@
     width: 111%;
   }
 
+  #token {
+    padding: 20px;
+    width: 111%;
+  }
+
+  #header {
+    width: 111%;
+  }
+
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+
+  #token {
+    padding: 20px;
+    width: 111%;
+  }
+
   #header {
     width: 111%;
   }
